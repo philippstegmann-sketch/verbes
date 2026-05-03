@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission Verbes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Französisch · Verbtraining</p>
+        <h1>Mission Verbes</h1>
+        <p>Trainiere französische Verben mit Punkten, Serien und Levels.</p>
+      </div>
+      <div class="levelCircle">
+        <strong id="level">1</strong>
+        <span>Level</span>
+      </div>
+    </header>
+
+    <section class="card controls">
+      <label for="tenseSelect">Zeitform auswählen</label>
+      <select id="tenseSelect">
+        <option value="present">Présent</option>
+        <option value="passeCompose">Passé composé</option>
+        <option value="futurSimple">Futur simple</option>
+        <option value="imparfait">Imparfait</option>
+        <option value="conditionnel">Conditionnel présent</option>
+        <option value="mixed">Alle Zeiten gemischt</option>
+      </select>
+      <button id="newTaskBtn" type="button">Neue Aufgabe</button>
+    </section>
+
+    <section class="stats">
+      <div class="card stat">
+        <strong id="score">0</strong>
+        <span>Punkte</span>
+      </div>
+      <div class="card stat">
+        <strong id="streak">0</strong>
+        <span>Serie</span>
+      </div>
+      <div class="card stat">
+        <strong id="accuracy">0%</strong>
+        <span>Trefferquote</span>
+      </div>
+    </section>
+
+    <section class="card quiz">
+      <p class="small">Konjugiere:</p>
+      <h2><span id="pronoun">je</span> + <span id="verb">être</span></h2>
+      <p id="info" class="info">Deutsch: sein · Zeitform: présent</p>
+
+      <form id="answerForm">
+        <input id="answerInput" type="text" placeholder="z. B. je suis oder suis" autocomplete="off" />
+        <button type="submit">Prüfen</button>
+      </form>
+
+      <div id="feedback" class="feedback">Gib deine Antwort ein und drücke Enter.</div>
+
+      <div class="buttons">
+        <button id="showSolutionBtn" type="button" class="secondary">Lösung zeigen</button>
+        <button id="resetBtn" type="button" class="secondary">Fortschritt löschen</button>
+      </div>
+    </section>
+
+    <section class="card progress">
+      <div class="progressHeader">
+        <strong>Fortschritt bis zum nächsten Level</strong>
+        <span id="xpText">0 / 100 XP</span>
+      </div>
+      <div class="bar">
+        <div id="xpBar"></div>
+      </div>
+    </section>
+
+    <section class="card note">
+      <h3>Hinweis</h3>
+      <p>Antworten mit oder ohne Pronomen werden akzeptiert: <strong>nous venons</strong> und <strong>venons</strong> sind beide richtig.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
