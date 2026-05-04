@@ -1,63 +1,19 @@
-# Mission Verbes – komplett neue Version
+# Mission Verbes 40
 
-Diese Version ist bewusst neu aufgebaut, damit keine alten Elemente wie «Modus» oder «Beispielsatz» mehr drin sind.
+Komplette GitHub-Pages-Version zum Üben der 40 häufigsten französischen Verben.
 
 ## Funktionen
+- 40 Verben
+- Présent, passé composé, futur simple, imparfait, conditionnel présent
+- Auswahl: «Alle Zeiten gemischt»
+- 2 Punkte pro richtige Antwort
+- Antworten mit oder ohne Pronomen zählen
+- Enter prüft zuerst, danach nächste Frage
+- Fortschritt wird lokal im Browser gespeichert
 
-- Nur eine Auswahl: Zeitform
-- Zeitformen:
-  - Présent
-  - Passé composé
-  - Futur simple
-  - Imparfait
-  - Conditionnel présent
-  - Alle Zeiten gemischt
-- Bei «Alle Zeiten gemischt» wird bei jeder Aufgabe zufällig eine andere Zeitform gewählt.
-- Richtige Antwort = 2 Punkte
-- Antworten mit oder ohne Pronomen zählen:
-  - `nous venons` ist richtig
-  - `venons` ist auch richtig
-- Enter:
-  - erstes Enter = Antwort prüfen
-  - zweites Enter = nächste Frage
-- Kein mehrfaches Punkten mit derselben Antwort
-- Fortschritt wird im Browser gespeichert
-
-## Dateien
-
-Das Projekt besteht aus:
-
-- `index.html`
-- `style.css`
-- `script.js`
-- `README.md`
-
-## Wichtig beim Aktualisieren auf GitHub
-
-Bitte im Repository alte Dateien ersetzen.
-
-Am besten so:
-
-1. Repository öffnen
-2. Alte Dateien löschen:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - eventuell alte `README.md`
-3. Neue Dateien aus diesem ZIP hochladen
-4. Unten auf **Commit changes** klicken
-5. GitHub Pages ca. 30–60 Sekunden Zeit geben
-6. App mit **Ctrl + F5** neu laden
-
-## Achtung Cache
-
-Falls noch die alte Version sichtbar ist:
-
-- Windows/Linux: `Ctrl + F5`
-- Mac: `Cmd + Shift + R`
-- Oder die Seite in einem privaten Browserfenster öffnen
-
-## Verben erweitern
-
-Die Verben stehen in `script.js` ganz oben in der Liste `verbs`.
-Dort kannst du weitere Verben ergänzen.
+## Aktualisieren auf GitHub
+1. Alte Dateien im Repository löschen: `index.html`, `style.css`, `script.js`, `README.md`
+2. Neue Dateien aus diesem ZIP hochladen
+3. **Commit changes**
+4. 30–60 Sekunden warten
+5. Seite mit **Ctrl + F5** neu laden
